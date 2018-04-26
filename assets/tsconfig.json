@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "jsx": "React",
+    "jsxFactory": "h",
+    "declaration": false,
+    "module": "es6",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2015", "es6"],
+    "allowSyntheticDefaultImports": true,
+    "target": "es6"
+  },
+  "include": [
+      "ts/*"
+  ]
+}

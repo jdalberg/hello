@@ -1,0 +1,30 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node_modules/rollup/bin/rollup -c  --environment INCLUDE_DEPS,BUILD:production",
+    "watch": "node_modules/rollup/bin/rollup -c -w"
+  },
+  "dependencies": {
+    "phoenix": "file:../deps/phoenix",
+    "phoenix_html": "file:../deps/phoenix_html"
+  },
+  "devDependencies": {
+    "rollup": "^0.58.2",
+    "preact": "^8.2.7",
+    "rollup": "^0.58.2",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.13.0",
+    "typescript": "^2.8.3"
+  },
+  "standard": {
+    "globals": [
+      "Preact",
+      "__ENV__"
+    ],
+    "ignore": [
+      "build"
+    ]
+  }
+}
