@@ -5,6 +5,7 @@
 /*.ez
 /assets/node_modules
 /assets/.rpt2_cache
+mix.lock
 
 # Generated on crash by the VM
 erl_crash.dump
