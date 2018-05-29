@@ -21,8 +21,7 @@ if i wanted to install deps.
 ## Basic node_modules
 
 In the default brunch mode, all non js related assets will be copied
-directly to priv, which doesn't really make sense to me, why not just work
-those from priv?
+directly to priv. You can use rollup for this with some plugins. For instance use rollup with postcss to manage styleheets. Read more about that here https://code.lengstorf.com/learn-rollup-css/
 
 Rollup is configured just to bundle the typescript files (tsx) into
 the app.js in priv/js
